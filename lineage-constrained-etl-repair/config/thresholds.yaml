@@ -1,0 +1,4 @@
+thresholds:
+  max_null_ratio: 0.05       # theta_a
+  min_lineage_preservation: 0.90 # theta_L
+  max_repair_time_sec: 30.0

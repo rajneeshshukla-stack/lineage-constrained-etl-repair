@@ -1,0 +1,6 @@
+{
+  "scenario_id": "S09",
+  "category": "05_nullability_evolution",
+  "contract_threshold_theta_a": 0.05,
+  "min_lineage_preservation_theta_L": 0.9
+}

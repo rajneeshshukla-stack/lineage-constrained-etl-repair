@@ -1,0 +1,14 @@
+# Failure Localization (FL) Weights (Eq. 19)
+fl_weights:
+  alpha: 0.25 # Schema impact weight
+  beta: 0.25  # Lineage proximity weight
+  gamma: 0.25 # Contract contribution weight
+  delta: 0.25 # Downstream dependency weight
+
+# Repair Candidate Ranking Weights (Eq. 21)
+repair_weights:
+  lambda1: 0.30 # Contract satisfaction
+  lambda2: 0.25 # Lineage preservation
+  lambda3: 0.20 # Output quality
+  lambda4: 0.15 # Repair complexity penalty
+  lambda5: 0.10 # Downstream disruption penalty
